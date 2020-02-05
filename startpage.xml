@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Startpage</ShortName>
+  <Description>Startpage search</Description>
+  <Url type="text/html" method="post" template="https://www.startpage.com/do/search">
+    <Param name="query" value="{searchTerms}"/>
+    <Param name="prfe" value="36c84513558a2d34bf0d89ea505333ad9c86bd6598735d590adc2e9be9271a9b5065027ac0acf304745625d261b6aec0"/>
+  </Url>
+  <Url type="application/x-suggestions+json" template="https://www.startpage.com/cgi-bin/csuggest?query={searchTerms}&amp;limit=10&amp;lang=english&amp;format=json"/>
+  <Image width="32" height="32">https://www.startpage.com/assets/images/logo-32x32.png</Image>
+  <Developer>Anon</Developer>
+  <InputEncoding>UTF-8</InputEncoding>
+  <moz:SearchForm>https://www.startpage.com/</moz:SearchForm>
+</OpenSearchDescription>
